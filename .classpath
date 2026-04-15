@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-22">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="snowui"/>
+	<classpathentry kind="src" path="nbt"/>
+	<classpathentry kind="src" path="frost3d"/>
+	<classpathentry kind="lib" path="/frost3d/lwjgl/joml-1.10.5.jar" sourcepath="/frost3d/lwjgl/licenses-docs-and-sources/joml-1.10.5-sources.jar"/>
+	<classpathentry kind="lib" path="/frost3d/lwjgl/lwjgl.jar"/>
+	<classpathentry kind="lib" path="/frost3d/lwjgl/lwjgl-glfw.jar"/>
+	<classpathentry kind="lib" path="/frost3d/lwjgl/lwjgl-glfw-natives-windows.jar"/>
+	<classpathentry kind="lib" path="/frost3d/lwjgl/lwjgl-natives-windows.jar"/>
+	<classpathentry kind="lib" path="/frost3d/lwjgl/lwjgl-openal.jar" sourcepath="/frost3d/lwjgl/licenses-docs-and-sources/lwjgl-openal-sources.jar"/>
+	<classpathentry kind="lib" path="/frost3d/lwjgl/lwjgl-openal-natives-windows.jar"/>
+	<classpathentry kind="lib" path="/frost3d/lwjgl/lwjgl-opengl.jar"/>
+	<classpathentry kind="lib" path="/frost3d/lwjgl/lwjgl-opengl-natives-windows.jar"/>
+	<classpathentry kind="lib" path="/frost3d/lwjgl/lwjgl-stb.jar"/>
+	<classpathentry kind="lib" path="/frost3d/lwjgl/lwjgl-stb-natives-windows.jar"/>
+	<classpathentry kind="lib" path="/frost3d/lwjgl/lwjgl-tinyfd.jar"/>
+	<classpathentry kind="lib" path="/frost3d/lwjgl/lwjgl-tinyfd-natives-windows.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
