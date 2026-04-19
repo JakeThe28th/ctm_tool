@@ -1,8 +1,10 @@
 Build instructions
 
-TODO: ADD LINKS
-
 This project requires /nbt, /frost3d, and /snowui. 
+
+https://github.com/JakeThe28th/snowui
+https://github.com/JakeThe28th/frost3d
+https://github.com/JakeThe28th/nbt
 
 After cloning the project, import it to your IDE of choice. I don't use gradle or maven, so you'll have to add the dependencies yourself.
 
