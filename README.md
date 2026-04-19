@@ -28,7 +28,22 @@ After that, you should be able to run the project with the run button. You might
 
 INTELLIJ
 
-[TODO: i have to finish writing this later, but basically it's the same as Eclipse]
+There's probably a better way to set up the project, but here's how I got it to run
+
+1) Download/Clone this repository, /nbt, /frost3d, and /snowui
+2) In the top menu, go to `File -> Open` and open this repository's root folder
+3) Click the gear in the top right and go to `Project Structure`
+4) Go to "Modules", then click the plus in the middle column, and then `New Module`.
+5) It might already be filled out, but create the module so that the text below it says
+  `Module will be created in ~\...\ctm_tool-main`
+   After creating it, you should see the repository's folder structure, where 'src' is highlighted in blue to indicate it's a source folder.
+6) For each library, click "Add Content Root" and add its' root folder. Make sure the 'src' folder in each is marked as a source folder.
+   If you click apply, you should be able to go to CTMToolMain.java, and all of the imports aside from the lwjgl stuff won't be red.
+7) Next, go to the `Dependencies` tab (still in `Modules` in `Project Structure`), and click the plus, and then `JARs or Directories`. 
+8) Go to wherever you put `frost3d/lwjgl/`, and select all of the .jar files, and press 'OK'.
+9) I don't know if this is needed since I didn't test without doing it, but if they're not already checked, click the checkmark box on all of the jars.
+
+After clicking Apply/OK, you should be able to run CTMToolMain.java.
 
 ---
 
