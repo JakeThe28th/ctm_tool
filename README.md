@@ -42,10 +42,10 @@ There's probably a better way to set up the project, but here's how I got it to 
   `Module will be created in ~\...\ctm_tool-main`
    After creating it, you should see the repository's folder structure, where 'src' is highlighted in blue to indicate it's a source folder.
 6) AFAIK there are three options for adding the main libraries:
-	a) For each library, click "Add Content Root" and add its' root folder. Make sure the 'src' folder in each is marked as a source folder.
+	6.1) For each library, click "Add Content Root" and add its' root folder. Make sure the 'src' folder in each is marked as a source folder.
    If you click apply, you should be able to go to CTMToolMain.java, and all of the imports aside from the lwjgl stuff won't be red.
-	b) Or, you can put the main libraries' folders in the main module's folder, and then in thn the Sources tab in Project Structure, find the 'src' folders, right click them, and click "Sources"
-	c) Or, you can download the libraries as .jar files, and add them to the project the same way you add the LWJGL stuff in step 7. But, this option isn't possible right now, because I haven't released any jar versions of the libraries yet. So really, it's just the last two.
+	6.2) Or, you can put the main libraries' folders in the main module's folder, and then in thn the Sources tab in Project Structure, find the 'src' folders, right click them, and click "Sources"
+	6.3) Or, you can download the libraries as .jar files, and add them to the project the same way you add the LWJGL stuff in step 7. But, this option isn't possible right now, because I haven't released any jar versions of the libraries yet. So really, it's just the last two.
 7) Next, go to the `Dependencies` tab (still in `Modules` in `Project Structure`), and click the plus, and then `JARs or Directories`. 
 8) Go to wherever you put `frost3d/lwjgl/`, and select all of the .jar files, and press 'OK'.
 9) I don't know if this is needed since I didn't test without doing it, but if they're not already checked, click the checkmark box on all of the jars.
